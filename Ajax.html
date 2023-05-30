@@ -1,0 +1,45 @@
+<!-- File Name: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>USER REGISTRATION FORM</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  
+  <body style="background-color:powderblue;"> 
+<br><br><br><br><br><br><br><br>
+<center>
+<font color="RED">
+    <h1><u>STUDENT REGISTRATION FORM</u></h1>
+</font>
+    <form id="studentForm1">
+      <label>FIRST NAME</label>
+      <input type="text" id="firstName" class="form-control" required />
+	<br><br>
+      <label>LAST NAME</label>
+      <input type="text" id="lastName" class="form-control" required />
+
+	<br><br>ADDRESS:
+	<input type="text" id="address" class="form-control" required />
+	<br><br>
+
+	BRANCH: <select name="sel">
+	<option>IT
+	<option>COMP
+	<option>E&TC</select> <p>GENDER:
+        <input type="radio" name="r1">MALE
+            <input type="radio" name="r1">FEMALE</p><br>
+	<br>
+      <button class="btn btn-primary btn-lg" id="btnAddStudent" type="button">
+        SUBMIT
+      </button>
+</center>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="myscript1.js"></script>
+  </body>
+</html>
